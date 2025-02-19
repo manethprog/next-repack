@@ -1,0 +1,119 @@
+body {
+    background: linear-gradient( rgb(0, 252, 76), rgb(0, 255, 221));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+}
+.topbar {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 1000px;
+    height: 70px;
+    background-color: lightcyan;
+    font-family: Helvetica;
+    font-size: large;
+    display: grid;
+    place-items: center;
+}
+.topbar a{
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.topbar a:hover {
+    color: grey;
+}
+.lefttop {
+    position: relative;
+    right: 380px;
+    top: 25px;
+}
+.centertop {
+    display: grid;
+    place-items: center;
+}
+.centertop input {
+    width: 350px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+.righttop {
+    position: relative;
+    left: 380px;
+    bottom: 25px;
+}
+
+/* Gamepage 👇 */
+
+.GamePage {
+    font-family: helvetica;
+    width: 1700px;
+    height: 1100px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(0, 174, 255);
+    position: relative;
+    top: 50px;
+}
+.GamePage .tlou {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.GamePage .gamename {
+    font-size: 80px;
+    position: relative;
+    left: 450px;
+    bottom: 500px;
+}
+.GamePage .gametype {
+    font-size: 50px;
+    position: relative;
+    left: 460px;
+    bottom: 500px;
+}
+.GamePage .breakline {
+    background-color: black;
+    width: 1200px;
+    height: 20px;
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    bottom: 530px;
+    left: 450px;
+}
+.GamePage .download {
+    background-color: lime;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    bottom: 500px;
+    left: 480px;
+}
+.GamePage a{
+    color: black;
+    text-decoration:none;
+}
+.GamePage .aboutgame {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: relative;
+    bottom: 420px;
+    left: 35px;
+    width: 1600px;
+    padding: 10px;
+}
+.GamePage .system {
+    width: 550px;
+    position: relative;
+    bottom: 390px;
+    left: 50px;
+}

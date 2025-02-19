@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient( lightblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+}
+.topbar {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 1000px;
+    height: 70px;
+    background-color: lightcyan;
+    font-family: Helvetica;
+    font-size: large;
+    display: grid;
+    place-items: center;
+}
+.topbar a{
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.topbar a:hover {
+    color: grey;
+}
+.lefttop {
+    position: relative;
+    right: 380px;
+    top: 25px;
+}
+.centertop {
+    display: grid;
+    place-items: center;
+}
+.centertop input {
+    width: 350px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+.righttop {
+    position: relative;
+    left: 380px;
+    bottom: 25px;
+}

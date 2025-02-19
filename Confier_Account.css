@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient( lightgreen ,lightblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center
+}
+.box {
+    background-color:  rgb(0, 238, 255);
+    width: 750px;
+    height: 200px;
+    border-radius: 15px;
+    font-family: helvetica;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+.box h2 {
+    position: relative;
+    bottom: 40px;
+}
+.box a {
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+}
+.box a:hover {
+    color: rgb(134, 134, 134);
+}

@@ -1,0 +1,237 @@
+body {
+    background: linear-gradient( lightblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+}
+.topbar {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 1000px;
+    height: 70px;
+    background-color: lightcyan;
+    font-family: Helvetica;
+    font-size: large;
+    display: grid;
+    place-items: center;
+}
+.topbar a{
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.topbar a:hover {
+    color: grey;
+}
+.lefttop {
+    position: relative;
+    right: 380px;
+    top: 25px;
+}
+.centertop {
+    display: grid;
+    place-items: center;
+}
+.centertop input {
+    width: 350px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+.righttop {
+    position: relative;
+    left: 380px;
+    bottom: 25px;
+}
+
+/* Topbar 👆 👇 Mainmenu */
+
+.hotgame {
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+    width: 1700px;
+    height: 530px;
+    position: relative;
+    top: 20px;
+    background-color: rgb(29, 29, 75);
+}
+.hotgame .text {
+    width: 170px;
+    height: 0px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    left: 770px;
+    font-family: helvetica;
+    color: white;
+}
+.hotgame a {
+    text-decoration: none;
+    color: black;
+}
+.hotgame .gamecard1 {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 300px;
+    height: 450px;
+    position: relative;
+    top: 45px;
+    left: 30px;
+    background-color: lightgoldenrodyellow;
+    font-family: Helvetica;
+    color: black;
+}
+.hotgame .gamecard1 .gamepic {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.hotgame .gamecard1 .name { 
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+}
+.hotgame .gamecard1 .type { 
+    position: relative;
+    bottom: 35px;
+    left: 24px;
+}
+.hotgame .gamecard1 .price { 
+    position: relative;
+    bottom: -10px;
+    left: 200px;
+}
+
+.hotgame .gamecard2 {
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    width: 300px;
+    height: 450px;
+    position: relative;
+    bottom: 446px;
+    left: 330px;
+    background-color: rgb(127, 167, 19);
+    font-family: Helvetica;
+    color: black;
+}
+.hotgame .gamecard2 .gamepic {
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+.hotgame .gamecard2 .name { 
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+}
+.hotgame .gamecard2 .type { 
+    position: relative;
+    bottom: 35px;
+    left: 24px;
+}
+.hotgame .gamecard2 .price { 
+    position: relative;
+    bottom: -47px;
+    left: 205px;
+}
+
+.hotgame .gamecard3 {
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    width: 300px;
+    height: 450px;
+    position: relative;
+    bottom: 898px;
+    left: 670px;
+    background-color: rgb(21, 179, 241);
+    font-family: Helvetica;
+    color: black;
+}
+.hotgame .gamecard3 .gamepic {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.hotgame .gamecard3 .name { 
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+}
+.hotgame .gamecard3 .type { 
+    position: relative;
+    bottom: 35px;
+    left: 24px;
+}
+.hotgame .gamecard3 .price { 
+    position: relative;
+    bottom: -50px;
+    left: 205px;
+}
+
+.hotgame .gamecard4 {
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+    width: 300px;
+    height: 450px;
+    position: relative;
+    bottom: 1350px;
+    left: 1010px;
+    background-color: rgb(106, 109, 110);
+    font-family: Helvetica;
+    color: black;
+}
+.hotgame .gamecard4 .gamepic {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.hotgame .gamecard4 .name { 
+    position: relative;
+    bottom: 15px;
+    left: 12px;
+}
+.hotgame .gamecard4 .type { 
+    position: relative;
+    bottom: 35px;
+    left: 15px;
+}
+.hotgame .gamecard4 .price { 
+    position: relative;
+    bottom: 1px;
+    left: 205px;
+}
+
+.hotgame .gamecard5 {
+    border: 1px solid rgb(229, 255, 0);
+    border-radius: 10px;
+    width: 300px;
+    height: 450px;
+    position: relative;
+    bottom: 1801px;
+    left: 1350px;
+    background-color: rgb(241, 255, 118);
+    font-family: Helvetica;
+    color: black;
+}
+.hotgame .gamecard5 .gamepic {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.hotgame .gamecard5 .name { 
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+}
+.hotgame .gamecard5 .type { 
+    position: relative;
+    bottom: 35px;
+    left: 24px;
+}
+.hotgame .gamecard5 .price { 
+    position: relative;
+    bottom: -50px;
+    left: 205px;
+}

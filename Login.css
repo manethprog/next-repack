@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient( lightblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+}
+.topbar {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 1000px;
+    height: 70px;
+    background-color: lightcyan;
+    font-family: Helvetica;
+    font-size: large;
+    display: grid;
+    place-items: center;
+}
+.topbar a{
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.topbar a:hover {
+    color: grey;
+}
+.lefttop {
+    position: relative;
+    right: 380px;
+    top: 25px;
+}
+.centertop {
+    display: grid;
+    place-items: center;
+}
+.centertop input {
+    width: 350px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+.righttop {
+    position: relative;
+    left: 380px;
+    bottom: 25px;
+}
+
+/* Login 👇 */
+
+.login {
+    background-color: rgb(0, 183, 255);
+    width: 500px;
+    height: 400px;
+    border: 1px solid rgb(0, 238, 255);
+    border-radius: 15px;
+    position: relative;
+    top: 30px;
+    font-family: Helvetica;
+    display: grid;
+    place-items: center;
+}
+.login h1 {
+    position: relative;
+    bottom: -10px;
+}
+.login p {
+    position: relative;
+    bottom: 20px;
+}
+.login .e {
+    width: 480px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    bottom: 20px;
+}
+.login .p {
+    width: 480px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    bottom: 0px;
+}
+.login .e::placeholder {
+    padding-left: 10px;
+}
+.login .p::placeholder {
+    padding-left: 10px;
+}
+.login button {
+    width: 440px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 255, 255);
+    font-size: 30px;
+    position: relative;
+    bottom: 30px;
+}
+.login .rememberme {
+    position: relative;
+    bottom: -7px;
+    right: 220px;
+}
+.login .RM {
+    position: relative;
+    bottom: 24px;
+    right: 150px;
+}
+.login .bottom {
+    position: relative;
+    top: -30px;
+}
+.login .bottom a {
+    color: black;
+    text-decoration: none;
+}
